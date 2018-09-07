@@ -1,0 +1,41 @@
+newmtl phong5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 5_BaseColor.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl phong11SG
+illum 4
+Kd 0.50 0.00 0.00
+Ka 0.27 0.27 0.27
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.12 0.12 0.12
+Ns 18.00
+newmtl phong12SG
+illum 4
+Kd 0.65 0.65 0.65
+Ka 0.06 0.06 0.06
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.37 0.37 0.37
+Ns 13.54
+newmtl phong13SG
+illum 4
+Kd 0.69 0.69 0.69
+Ka 0.29 0.29 0.29
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 18.00
+newmtl phong14SG
+illum 4
+Kd 0.67 0.67 0.67
+Ka 0.28 0.28 0.28
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 15.08

@@ -1,0 +1,7 @@
+timestep 0.01
+dampingMassCoef 0.04
+dampingStiffnessCoef 0.04
+poisson 0.2
+youngmodulus 120
+density 1.0
+end

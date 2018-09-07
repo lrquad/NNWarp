@@ -1,0 +1,41 @@
+cameraPath ./config/camera_armadillo.txt
+#read a obj
+readobj 3dmodel/armadillolow.obj
+#move a obj to centre default last obj
+moveobj 0 0 0
+#unvisible
+smoothshading
+wireframe
+
+
+readobj 3dmodel/labfloor.obj
+moveobj 0 -2 0
+scale 0.5
+#unvisible
+
+substructuringSim 0
+#MODALWARPING 0
+
+
+gravity 1
+
+uniformVolumMesh 1
+density 1.0
+forceratio 200
+base_end
+
+DNNpath data/DNN/bar_3test.txt
+
+load data/ElementMesh/armadillo.1
+constraints data/Constraint/armadillo.1.txt
+frame data/framebase/Tshap.txt
+loadmarks data/substructuring/armadilo4.txt
+
+end
+#end
+
+
+setSelectedIndex 0
+
+#start -1 all simulator or simulator's ID
+start -1

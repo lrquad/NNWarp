@@ -1,0 +1,15 @@
+14
+./data/substructuring/material/hardtail.txt
+./data/substructuring/material/hardtail.txt
+./data/substructuring/material/hardtail.txt
+./data/substructuring/material/hardtail.txt
+./data/substructuring/material/hardtail.txt
+./data/substructuring/material/hardtail.txt
+./data/substructuring/material/hardtail.txt
+./data/substructuring/material/hardtail.txt
+./data/substructuring/material/hardtail.txt
+./data/substructuring/material/hardtail.txt
+./data/substructuring/material/hardtail.txt
+./data/substructuring/material/hardtail.txt
+./data/substructuring/material/hardtail.txt
+./data/substructuring/material/hardtail.txt

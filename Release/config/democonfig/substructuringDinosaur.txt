@@ -1,0 +1,45 @@
+cameraPath ./config/camera_armadillo.txt
+#read a obj
+readobj 3dmodel/dinosaurlow.obj
+#move a obj to centre default last obj
+moveobj 0 0 0
+#unvisible
+smoothshading
+wireframe
+
+readobj 3dmodel/labfloor.obj
+moveobj 0 -1.10 0
+scale 0.5
+#unvisible
+
+readobj 3dmodel/dinosaurstand.obj
+moveobj 0 -0.54 0
+
+unvisible
+
+
+
+substructuringSim 0
+#MODALWARPING 0
+gravity 1
+density 1.0
+forceratio 100
+
+base_end
+
+DNNpath data/DNN/bar3_noalign.txt
+nodeNeighborTypeExport 0
+
+load data/ElementMesh/dinosaur.1
+constraints data/Constraint/dinosaur2.1.txt
+frame data/framebase/Tshap.txt
+loadmarks data/substructuring/dinosaur3.txt
+loadMaterial data/substructuring/material/dinosaurtotal.txt
+end
+#end
+
+
+setSelectedIndex 0
+
+#start -1 all simulator or simulator's ID
+start -1

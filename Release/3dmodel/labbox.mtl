@@ -1,0 +1,8 @@
+newmtl labbox:initialShadingGroup
+illum 4
+Kd 0.2 0.2 0.2
+Ka 0.30 0.30 0.3
+Tf 1.0 1.0 1.0
+Ni 1.00
+map_Ka mramor6x6-bump.png
+map_Kd mramor6x6-bump.png
